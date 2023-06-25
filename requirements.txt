@@ -1,6 +1,7 @@
 fastai
 pandas
 transformers==4.30.1
+tokenizers
 sentencepiece
 torch
 requests
