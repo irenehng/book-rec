@@ -1,8 +1,6 @@
 fastai
-pickle
 pandas
 transformers
 sentencepiece
 torch
 requests
-string
