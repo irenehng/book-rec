@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+myModel.pth filter=lfs diff=lfs merge=lfs -text
+dataloader.pkl filter=lfs diff=lfs merge=lfs -text
+data/BX_Books.csv filter=lfs diff=lfs merge=lfs -text
