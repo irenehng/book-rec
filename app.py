@@ -73,7 +73,7 @@ def search_book_description(title):
 
 # function to ensure summaries end with punctuation
 def cut(sum):
-    last_punc_idx = max(sum.rfind(p) for p in string.punctuation)
+    last_punc_idx = max(sum.rfind("."))
     output = sum[: last_punc_idx + 1]
     return output
 
